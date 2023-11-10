@@ -3,30 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Daniel Geron R. Galao- Resume</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0000003b;
+            margin: 0;
+            padding: 0;
+            background-image: url("coffee.jpg")
+           
+        
+        }
+
+        header {
+            background-color: #0000003b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            background-image: url("coffee.jpg")
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0000003b;
+            background-image: url("background1.jpg")
+        }
+
+        h2 {
+            color: rgb(221, 57, 28);
+        }
+        h3 {
+            color: rgb(221, 57, 28);
+        }
+        h4 {
+            color: rgb(221, 57, 28);
+        }
+        h5 {
+            color: rgb(221, 57, 28);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 0;
+        }     
+
+.profile{
+    width: 10%;
+    border-radius: 10%;
+    transition: 1s;
+    font-family: sans-serif;
+}
+.profile :hover{
+    transform:scale(1.2);
+    z-index: 1;}
+    
+    </style>
 </head>
 <body>
-    <h1>Calculator</h1>
-    <form action="" name="clc">
-        <input type="text" name="display" style="width: 370px; height: 70px; background-color: #4c555c;color: white;"><br>
-        <input class="btn" type="button" value="0" onclick="clc.display.value += '0'">
-        <input class="btn" type="button" value="1" onclick="clc.display.value += '1'">
-        <input class="btn" type="button" value="2" onclick="clc.display.value += '2'">
-        <input class="btn" type="button" value="+" onclick="clc.display.value += '+'" style=" background-color: #cc5c11;"><br>
-        <input class="btn" type="button" value="3" onclick="clc.display.value += '3'">
-        <input class="btn" type="button" value="4" onclick="clc.display.value += '4'">
-        <input class="btn" type="button" value="5" onclick="clc.display.value += '5'">
-        <input class="btn" type="button" value="-" onclick="clc.display.value += '-'" style="background-color: #ba55d3;"><br>
-        <input class="btn" type="button" value="6" onclick="clc.display.value += '6'">
-        <input class="btn" type="button" value="7" onclick="clc.display.value += '7'">
-        <input class="btn" type="button" value="8" onclick="clc.display.value += '8'">
-        <input class="btn" type="button" value="" onclick="clc.display.value += ''" style="background-color: #7db1b2;"><br>
-        <input class="btn" type="button" value="9" onclick="clc.display.value += '9'">
-        <input class="btn" type="button" value="C" onclick="clc.display.value =''" style="background-color:#cc0000;">
-        <input class="btn" type="button" value="=" onclick="clc.display.value =eval(clc.display.value)">
-        <input class="btn" type="button" value="&#247;" onclick="clc.display.value += '/'" style="background-color: #1f80c9;">
+    
+    <header>
+        <div class="logo">
+            <img class="profile" src="profileimg.jpg">
+        </div>
+        <h1>Daniel Geron R. Galao</h1>
+        <p>BSIT 3B</p>
+        
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I'm a student of DLL, taking up BSIT and I am at section 3B. I enjoy any position that will enable myself to use strong organizational skills, educational background, and ability to work well with the people
+            </p>
+        </section>
 
-    </form>
+        <section>
+            <h2>Experience</h2>
+            <h3>Student in Dalubhasaan ng Lungsong ng Lucena</h3>
+            <p><em>October 2023 - Present</em></p>
+            <p>
+                - Responsible for all task assigned
+                <br>
+                - I enjoy a diverse range of activities, from writing poetry to experimenting with basic coding.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <h3>College</h3>
+            <p><em>Bachelor of Science in Computer Science</em></p>
+            <h4>Senior Highschool:</h4>
+            <p>Accountancy Business and Management (ABM) St. Augustine School of Nursing , Lucena City, 2019-2021</p>
+            <h5>Junior Highschool:</h5>
+            <p>Lucena City National High School, Lucena City, 2015-2019</p>
+        </section>
+
+
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: Danielgalao17@gmail.com</p>
+            <p>Phone: 09952624834</p>
+            <p>Facebook: <a href="https://www.facebook.com/GalaoDaniel" target="_blank">facebook.com/in/Daniel Geron Galao</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/imdeejay21/" target="_blank">instagram.com/@imdeejay21</a></p>
+        </section>
+    </div>
 </body>
 </html>
